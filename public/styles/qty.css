@@ -1,0 +1,50 @@
+.product_quantity
+{
+	width: 68px;
+	height: 32px;
+	border: solid 2px #969696;
+	border-radius: 3px;
+}
+.product_quantity > span
+{
+	line-height: 28px;
+	font-size: 16px;
+	font-weight: 300;
+	color: #4a4a4a;
+	text-align: center;
+}
+.qty_button
+{
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+	width: 22px;
+	height: 100%;
+	line-height: 28px;
+	cursor: pointer;
+	font-size: 16px;
+	color: #414141;
+}
+.qty_button span
+{
+	-webkit-user-select: none;     
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.qty_button:hover
+{
+	color: #bbe432;
+}
+.qty_sub
+{
+	left: 0px;
+}
+.qty_add
+{
+	right: 0px;
+}
